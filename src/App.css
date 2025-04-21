@@ -1,6 +1,7 @@
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  /* Modify animation parameters */
+  from { opacity: 0; transform: translateY(20px); } /* Change initial state */
+  to { opacity: 1; transform: translateY(0); }      /* Change final state */
 }
 
 .animate-fadeIn {
